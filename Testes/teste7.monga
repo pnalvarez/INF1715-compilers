@@ -1,0 +1,14 @@
+/***********************************************
+* Atribuição com tipos incorretos. Var indexada.
+************************************************/
+
+int main(){
+	
+    int[] v;
+    int i;
+    i=0;
+    v=new int[10];
+    v[i]=i+0.5;
+
+    return 0;
+}

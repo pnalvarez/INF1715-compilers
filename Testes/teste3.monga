@@ -1,0 +1,14 @@
+/**********************************
+* Retorno com tipo incorreto
+***********************************/
+
+float f(int a, int b){
+	
+	return a+b;
+}
+
+void main(){
+	
+	char a;
+	a = f(2,3);
+}

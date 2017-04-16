@@ -1,0 +1,18 @@
+/**********************************
+* Parâmetro com tipo incorreto.
+***********************************/
+
+int soma(int a,int b){
+	return a+b;
+}
+
+void main(){
+	
+    int[] v;
+    int y;
+    v = new int[10];
+    y=1;
+
+    soma(v,y);
+
+}
